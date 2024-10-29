@@ -40,10 +40,10 @@ const App = () => {
           element={<Layout withSidebar>{<CoursePage />}</Layout>}
         />
         <Route
-          path='/'
+          path='/course'
           element={<Layout withSidebar>{<UserCourse />}</Layout>}
         />
-        <Route path='/login' element={<Layout>{<Login />}</Layout>} />
+        <Route path='/' element={<Layout>{<Login />}</Layout>} />
         <Route path='/register' element={<Layout>{<Register />}</Layout>} />
       </Routes>
     </main>
